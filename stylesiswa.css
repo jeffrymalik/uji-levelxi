@@ -1,0 +1,300 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #C8C1BC;
+    font-family: 'Quicksand', sans-serif;
+    user-select: none;
+}
+
+.Side-bar{
+    width: 200px;
+    height: 750px;
+    background-color: #99A799;
+    position: fixed;
+}
+.logo{
+    width: 200px;
+    height: 80px;
+    background-color:  #616161 ;
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+    box-sizing: border-box;
+}
+
+h3{
+    margin: 0;
+    color:#C8C1BC;
+}
+
+h3 span{
+    color: #87817F;
+}
+
+.nav div{
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #87817F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav div a:first-child,
+.nav div a:nth-child(2),
+.nav div a:nth-child(3){
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.nav div i:hover,
+.nav div a:hover{
+    color: #C8C1BC;
+}
+
+.nav div:hover{
+    background-color: #616161;
+    padding-left: 30px;
+}
+
+.nav div i{
+    padding-right: 10px;
+}
+
+.header{
+    width: 1200px;
+    height: 80px;
+    background-color: #ADC2A9;
+    position: absolute;
+    left: 17%;
+    top: 2%;
+    border-radius: 10px;
+}
+h1{
+    padding-left: 20px;
+}
+
+.content{
+    width: 1200px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    left: 17% ;
+    top: 15%;
+    border-radius: 10px;
+}
+
+.content h1:first-child{
+    text-align: center;
+    margin-top: 10%;
+    font-weight: 300;
+}
+.content h1:nth-child(2){
+    text-align: center;
+    font-weight: 300;
+}
+.content div{
+    height: 50px;
+    width: 100px;
+    background-color: #ADC2A9;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content div a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.content table, th , td{
+    margin-left: 3%;
+    margin-top: 3%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 12px;
+    height: max-content;
+}
+.content th{
+    background-color: #ADC2A9;
+    text-align: center;
+}
+.content td{
+    background-color: #FEF5ED;
+    text-align: center;
+    text-decoration: none;
+}
+.content td a{
+    text-decoration: none;
+    font-weight: bold;
+}
+/* form add siswa */
+.content-add{
+    width: 1200px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    left: 17% ;
+    top: 15%;
+    border-radius: 10px;
+}
+
+.content-add form{
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 15px;
+}
+
+.bungkus{
+    background-color: #C8C1BC;
+    border-radius: 20px;
+}
+.content-add table td{
+    border: none;
+    padding: 0;
+}
+.content-add td input{
+    margin-left: 70px;
+    width: 250px;
+    height: 28px;
+    font-size: 18px;
+}
+.content-add td p{
+    margin-left: 20px;
+    font-weight: bold;
+    background-color: #99A799;
+    height: 50px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.content-add form #submit{
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #99A799;
+    border-radius: 20px;
+    height: 35px;
+    width: 80px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+.content-add .tombol {
+    position: absolute;
+    top: 521px;
+    left: 450px;
+    height: 33px;
+    width: 90px;
+    background-color: #99A799;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-add .back{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content-add form .bungkusaja{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+/* form edit */
+.content-edit{
+    width: 1200px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    left: 17% ;
+    top: 15%;
+    border-radius: 10px;
+}
+
+.content-edit form{
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 15px;
+}
+
+.bungkus-2{
+    background-color: #C8C1BC;
+    border-radius: 20px;
+}
+.content-edit table td{
+    border: none;
+    padding: 0;
+}
+.content-edit td input{
+    margin-left: 80px;
+    width: 250px;
+    height: 28px;
+}
+.content-edit td p{
+    margin-left: 20px;
+    font-weight: bold;
+    background-color: #99A799;
+    height: 50px;
+    width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.content-edit form #save{
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #99A799;
+    border-radius: 20px;
+    height: 35px;
+    width: 80px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+.content-edit form .bungkusaja{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.content-edit .tombol-2 {
+    position: absolute;
+    top: 439px;
+    left: 450px;
+    height: 33px;
+    width: 90px;
+    background-color: #99A799;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-edit .back-2{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}

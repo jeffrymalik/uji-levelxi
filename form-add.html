@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarpras</title>
+    <link rel="stylesheet" href="stylebarang.css">
+    
+    <!-- font quick-sand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="Side-bar">
+            <div class="logo">
+                <img src="asset/logo.png" height="50px" alt="LOGO">
+                <h3>INVE<span>TO</span></h3>
+            </div>
+            <div class="nav">
+                <div><i class="fa-solid fa-house"></i><a href="tampilan.html">HOME</a></div>
+                <div><i class="fa-solid fa-warehouse"></i><a href="Data-barang.php">DATA BARANG</a></div>
+                <div><i class="fa-solid fa-id-card"></i><a href="Data-siswa.php">DATA SISWA</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <h1>ADD NEW DATA BARANG</h1>
+    </div>
+    <div class="content-add">
+        <form method="post" action="simpan.php">
+            <div class="bungkus">
+                <table>
+                    <tr>
+                        <td ><p>KODE BARANG :</p></td>
+                        <td><input type="varchar" name="kode_barang" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><p>NAMA BARANG :</p></td>
+                        <td><input type="text" name="nama_barang" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><p>JENIS BARANG : </p></td>
+                        <td><input type="text" name="jenis_barang" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><p>JUMLAH BARANG : </p></td>
+                        <td><input type="number" name="jumlah_barang" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><p><label>STOCK BARANG : </label></p></td>
+                        <td><input type="number" name="stock_barang" required="required"></td>
+                    </tr>
+                </table>
+            </div>
+            <input id="submit" type="submit" name="simpan" value="ADD">
+            <div class="tombol"><a class="back" href="Data-barang.php">CANCEL</a></div>
+        </form>
+    </div>
+</body>
+</html>
